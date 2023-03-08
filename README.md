@@ -1,4 +1,4 @@
-# youtube-videos-playlist
+# YouTube Videos Playlist
 
 ## How to use:
 
