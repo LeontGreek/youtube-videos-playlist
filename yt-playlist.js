@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         YouTube videos playlist
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @description  Make a playlist of all videos
 // @author       LeontG
 // @match        https://www.youtube.com/*
@@ -19,7 +19,6 @@
     var channelId = document.querySelector("meta[itemprop=channelId]").content;
     const id = channelId;
     const playlistId = replaceCharacter(id, 1, "U");
-    console.log(playlistId);
     GM_openInTab("https://www.youtube.com/playlist?list=" + playlistId);
 
 
