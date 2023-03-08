@@ -6,7 +6,7 @@
 // @author       LeontG
 // @match        https://www.youtube.com/*
 // @match        https://youtube.com/*
-// @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
+// @icon         https://cdn.icon-icons.com/icons2/195/ICO/256/YouTube_23392.ico
 // @grant        GM_openInTab
 // @grant        window.onurlchange
 // @run-at       context-menu
