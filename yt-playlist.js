@@ -5,7 +5,9 @@
 // @description  Make a playlist of all videos
 // @author       LeontG
 // @match        https://www.youtube.com/*
-// @match        https://youtube.com/*
+// @match        https://*.youtube.com/*
+// @exclude      https://*.youtube.com/watch?*
+// @exclude      https://*.youtube.com/playlist?*
 // @icon         https://cdn.icon-icons.com/icons2/195/ICO/256/YouTube_23392.ico
 // @grant        GM_openInTab
 // @grant        window.onurlchange
