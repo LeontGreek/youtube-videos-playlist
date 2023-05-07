@@ -16,7 +16,7 @@
     "use-strict"
 
     var pageUrl = window.location.href;
-    var channelId = document.querySelector("meta[itemprop=channelId]").content;
+    var channelId = document.querySelector("[itemprop=identifier]").content;
     const id = channelId;
     const playlistId = replaceCharacter(id, 1, "U");
     GM_openInTab("https://www.youtube.com/playlist?list=" + playlistId);
